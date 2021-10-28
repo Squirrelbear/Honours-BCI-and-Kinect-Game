@@ -2,6 +2,8 @@
 
 The code provided in this repository was what I used for testing with participants during my Honours year in 2012. It is provided as-is and has not been cleaned up to make it easier for other developers. The concepts presented may still be useful to some people, and you can find out more details about the work by reviewing the Thesis.pdf or ExpoPoster.pdf. 
 
+Note that the BCI server is not included. 
+
 # Required SDKs/Runtimes
 
 You may need some or all of these to run/compile the provided files:
@@ -37,8 +39,8 @@ Default state uses gamepad input only.
 
 
 If there is no gamepad connected or the A button on the pad has been pressed the keyboard controls will be automatically used.
-* + = increase alpha level by 0.1
-* - = decrease alpha level by 0.1
+* Plus = increase alpha level by 0.1
+* Minus = decrease alpha level by 0.1
 * Home = reset alpha to 0
 * Insert = set alpha to -1
 * End = set alpha to 1
