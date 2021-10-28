@@ -1,0 +1,330 @@
+Changelist v29:
+* Removed kinect overlay rendering from Game1 draw method and placed it in its own draw method
+* Referenced kinect overlay draw method in Main Menu to correctly show it behind the cursor
+* Modified BCIManager to automatically cull custom calibrated values over 3.0f
+* Modified BCINetworkMgr to store a connected status
+* Modified BCIManager and InputManager to provide interface to BCINetworkMgr connected status
+* Fixed debug input for BCI to allow debug control via InputManager to use the original alpha instead when no connection to server
+* Fixed ScaledBCI configuration for river puzzle by flipping the direction so that relaxation increases.
+* Fixed hip movement translation so that access to all columns can be made when using Kinect
+ - Note that still contains glitch when standing in certain places for multi-swapping
+* Enabled full screen graphics as default
+* Enabled full logging
+
+Changelist v28:
+* Reflipped values in ScaledBCI configuration so that relaxation increases and concentration decreases
+* Added min/max calibration values showing on the CalibrationWnd
+* Fixed relative position bug in CalibrationWnd when scores reset
+* Fixed bug where Calibrator would not always begin using calibration values after successful calibration
+* Fixed bug in ScaledBCI that incorrectly cleared the bar when a peak peak was reached
+* Changed Tile Puzzle's ScaledBCI configuration to use 0.4 and 0.35 as thresholds
+* Note (found min between 0.0011 and 0.0018, found max between 0.0027 and 0.0038)
+* Changed River/Street Puzzle thresholds to match method used in Tile Puzzle
+
+Changelist v27:
+* Created CalibratorTile class
+* Extended CalibrationWnd class
+* Extended rescaling helper functions in Input Manager and combined functionality into the getHandPosition function
+* Corrected TilePuzzle hand input for the rescale changes
+* Corrected MainMenu hand input for the rescale changes
+* Corrected RiverPuzzle hand input for the rescale changes
+* Corrected StreetPuzzle hand input for the rescale changes
+* Added code to Game1 to implement the rescaling configuration (60% rate used after testing 80% wasn't still enough)
+* Modifed Input Manager functions to correct that Rectangle can never be compared against a null
+* Fixed division by zero bug in rescaling code
+* Modified CalibrationWnd class to support all the required functionality
+* Modified the BCI thresholds for all puzzles from 0.01 and 0.005 to 0.2 and 0.15
+* Enabled datalogging for the system
+* Added public interface means for retrieving the Calibration object in BCIManager and InputManager
+* Added logging of calibration configuration
+* Removed unneeded variables in Calibrator Tile
+* Removed use of ScaledBCI in CalibrationWnd explictely
+
+Changelist v26:
+* Fixed bug for miscalculated object scores
+* Added code to River Object and River Puzzle for the above bug fix
+* Added rescale helper functions to InputManager ready to rescale the hand/hip inputs
+* Modified TilePuzzle ScaledBCI configuration
+* Created Calibrator class
+* Changed Calibration class to CalibrationWnd
+* Changed BCI Manager to support use of the Calibrator class 
+* Changed InputManager to provide support for Calibrator via BCI Manager
+* Changed scoring in Inventory for River Puzzle to use timeSpeed instead of visibility
+
+Changelist v25:
+* Fixed error for exit game speech string not being recognised
+* Created ScaledBCI class
+* Modified TilePuzzle to use ScaledBCI instead of previous scaling method
+* Fixed error in Calibration where keyboard commands could not be used
+* Modified ScaledBCI class to fix numerous numeric errors
+* Modified TilePuzzle to use alternate configuration for ScaledBCI
+* Disabled code that caused unneeded warnings throughout application
+* Added remaining time to Inventory display of River Puzzle
+
+Changelist v24:
+* Moved sprite buttons to the left area of the main menu
+* Configured the kinect depth image to only display when the main menu is open
+* Added backdrop for the kinect image to make it visible
+* Added more useful approach into Game1, TilePuzzle, RiverPuzzle, StreetPuzzle for having debug input enable-able
+* Added Calibration as a WndType
+* Created and added Calibration button graphics
+* Modified Main Menu to include the Calibration menu item
+* Added Calibration window class
+* Changed phrase "main menu" to "pause game" in all 3 puzzles
+* Fixed cursor progress sprite glitch
+* Configured Calibration  window to support a relax and a concentrate stage
+* Modified Main Menu to auto select within 1.5 seconds on menu items
+* Modified Main Menu to only require verbal input for exit game 
+
+Changelist v23:
+* Modified Game1, InputManager, BCIManager, and BCINetworkManager to enable a separate BCI datalog
+* Modified DataLog to allow for multilog file specification and simplied constructors and save method
+* Added datalogging to BCINetworkMgr
+* Changed direction of flowing water in StreetPuzzle
+* Modified water speed to correctly change based on the rest of the scenes relative movement in Street Puzzle
+* Changed draw order in Street Puzzle to fix thief alert graphic being overlayed by obstacles
+* Added hand coordinate data logging 
+* Fixed logging order where logging would never occur in Street Puzzle
+* Fixed logging on collision to happen on the collision and not every update while collided in Street Puzzle
+* Added support for switching between single and multihand tracking in Street Puzzle
+* Removed colour modification in InfoWnd
+* Created graphics for InfoWnd frames and added references into Game1
+* Created graphics for another junk item and two treasure items
+* Added graphics and configured RiverPuzzle spawning to select a random graphic
+* Changed Game1 to not render the info text while the infownd windows are up
+* Modified the time string in river puzzle to display the rate of time
+* Modified fading calculation in Tile and fixed THRESHOLD not updating correctly
+
+Changelist v22:
+* Added timer on screen display to show how long Tile Puzzle has been running for.
+* Fixed logic error in rotate in Tile. Simplerotation was being mistakenly used to update the base rotation.
+* Fixed logic error that caused crash when placing a tile in its numbered square due to the logging
+* Added lots of data logging code to River Puzzle
+* Added code to storeItem in Inventory to support data logging
+* Addedlots of data logging to Street Puzzle
+* Changed DataLog save path to store inside folder created for Screenshot system
+* Fixed issues with serialization in DataLog and DataElement
+* Modified DataElement and DataLog to use a timestamp as a string
+* Changed cursor graphic
+* Modified position of progress underlay for cursor object and fixed drawing to use correct dest instead of hand dest
+
+Changelist v21:
+* Enabled "Change/Swap hands" in River Puzzle, Street Puzzle, and Main Menu
+* Fixed DataLog and object instantiation
+* Added high value sustaining function to Tile Puzzle
+* Added methods to access the old values in the BCIManager and InputManager
+* Rearranged code in InputManager to make appropriate use of region blocks
+* Added many log insertion calls to the tile puzzle.
+* Added log insertions to StreetPuzzle and StreetMap
+* Extended ObstacleObj to acknowledge collided state to provide log data feedback
+* Extended Thief object for the same logging reason
+* Added log insertions to River Puzzle (and notes for remaining data logging locations in this file)
+
+Changelist v20:
+* Extended functionality and diversity of DataElement and DataLog
+* Added object for DataLog with supporting methods to Game1
+* Implemented Screenshot class
+* Enabled Screenshot class. Discovered that this causes blinking effect every capture.
+* Disabled native screen capture until blinking can be solved.
+* Added TODO statements in to TilePuzzle to indicate where information will be needed
+
+Changelist v19:
+* Moved primary threshold definition in Tile to TilePuzzle with updating references back to it
+* Simplified (and corrected) tile puzzle to show the rotated tiles
+* Changed fade value to have a cap of 0.6 instead of 1 so that there is a maximum visibility 
+* Added dynamic threshold to tile puzzle that initially changes after 45 seconds and then 30 from then on
+* Swapped out solution tile graphics in Tile Puzzle for map graphic
+* Added graphic for scrolling water in River puzzle
+* Implemented scrolling water movement and drawing in River Puzzle
+* Modified object movement speed to look better against water
+* Fixed typo in fail level for Street Puzzle
+* Modified movement in Street Puzzle (partial fix for hip position failing)
+* Created and added graphic for bridge in Street Puzzle
+* Created and swapped out old graphic for new broken box graphic
+* Fixed thief object not animating again after resuming from stop
+* Fixed movement updating after reaching the end of level for thief object
+* Removed spawning of extra old additional path helper block from StreetMap
+* Modified character position calculation in StreetPuzzle again
+* Added label to MainMenu
+
+Changelist v18:
+* Added smoothing code
+* Removed alpha inversion from input manager
+* Modified DummyServer to use the new output count
+* Modified river object to temporarily show with yellow tint for treasure
+* Fixed object selection (still need to fix bounding box offset) in River Puzzle
+* Fixed selected objects not being displayed in RiverPuzzle
+* Added object removal to RiverPuzzle
+* Fixed object drawing when attached to hand on RiverPuzzle
+* Modified RiverObject's getBoundBox to return the actual bound box instead of the distorted one
+* Added debug mode support for overlay dialog inputs
+* Fixed draw order in RiverPuzzle to allow elements to be rendered correctly;
+* Fixed object movement to use BCI as movement factor correctly
+* Made spawning speed relative to time displacement
+* Displaying real time and modified time in inventory
+* Halved required time for River Puzzle
+
+Changelist v17:
+* Fixed bug in FailureDialog that caused crash
+* Added lots more code to River Puzzle
+* Created graphics for main menu background and dialog background
+* Added handleSpeechNotRecognised() method that can be overriden for WndHandle
+* Added speech reconition failure feedback to tile puzzle
+* Made InfoWnd switch between different colours for the static graphic to temporarily make it visible moving between views
+* Added verbal error suggestion for using incorrect verbal commands to InfoWnd
+* Added RiverPuzzle folder for graphics
+* Added tyre graphic for use in River Puzzle as junk
+* Added background graphic for River Puzzle
+* Expanded Inventory with drawing and collision detection code
+* Modified BCIManager and BCINetworkManager to take an additional custom Alpha and Theta input
+* Flipped alpha value in InputManager
+* Extended functionality in RiverPuzzle
+* Extended functionality in Inventory for River Puzzle
+* Extended RiverObject functionality including override fixes for update and draw
+* Extended RiverPuzzle, RiverObject, and Inventory enough to appear visibly.
+
+Changelist v16:
+* Modified AnimatedObj to allow overriding of the update and trigger collided methods for the PeopleObstacle
+* Implemented code in PeopleObstacle
+* BCINetworkMgr variables setup for IP and port stored as instance variables to simplify changing
+* Modified BCIManager to use array for data instead of the single variable
+* Added a function to InputManager to handle multiple potential BCI input states
+* Modified BCINetworkMgr to use StreamReader and reading of lines instead of bytes
+* Modified BCINetworkMgr to read multiple input from server insteadof just first number
+* Modified BCIetworkMgr and BCIManager to use 16*8 channels
+* Redefined PeopleObstacle to use just a single character per obstacle
+* Added method for setting the origin default to AnimatedObj
+* Modified probability for people objects so that they have a 40% chance of appearing instead of the 10%
+* Modified Animated Obj to allow for animation for a defined number of frames worth
+* Modified People Obstacle to fix animation glitch that prevented animation continuation while player was colliding
+* Modified People Obstacle to speak for periods of time and then pause and continue at different times
+* Implemented FailureDialog based on the Victory Dialog
+* Fixed Bug in VictoryDialog use for StreetPuzzle that would just cause a reattempt at the same level instead of next level
+* Added code to Street Puzzle to handle interaction with the FailureDialog
+* Fixed bug in Street Puzzle where saying "Confirm" when the overlay window was not up could cause a crash
+* Added level fail method to Street Puzzle to allow internal and external objects to indicate level fail
+* Added level fail management to Thief object as it tracks the alterted state
+* Implemented code in Inventory for River Puzzle
+* Implemented code in River Puzzle
+* Implemented code in River Object
+* Modified Cursor to allow updating of the selection bounding box (required for river puzzle)
+* Modified BCINeworkMgr, InputManager, and BCIManager to use 2D array for BCI data
+* Fixed bugs that could cause crashes in network management for BCINetworkMgr
+* Modified Dummy Server to use the updated spec for netowork data
+* Modified Dummy Server to allow safe thread exiting and termination
+
+Changelist v15:
+* Implemented base code for River Puzzle class
+* Created a variety of graphical assets
+* Modified StreetMap to display alternate assets with special properties
+* Added code to load all the sprites in for Street Map
+* Fixed bug where overpass would modify the speed incorrectly
+* Fixed bug where overpass would cause crash because it is not a pathhelper
+* Fixed numeric error on speed multipler that halved the speed
+* Changed all buttons to use new graphics and linked code to correct graphics
+* Changed info screens to use a "TODO" graphic instead of other dummy graphics
+* Fixed logic error in Tile Puzzle that meant 9th tile would always be 9
+* Fixed logic error in Street Puzzle that had rivers spawning on rows the AI moved multiple squares
+* Added scrolling buildings in Steet Puzzle
+* Added scrolling water in Steet Puzzle
+* Changed player and thief sprites in Steet Puzzle
+* Enabled animation of player and thief in Steet Puzzle
+* Fixed bug where player animation would be reset to frame 0 every update in Steet Puzzle
+* Changed BCI input speed modifier to make the game a little easier on Street Puzzle
+
+Changelist v14:
+* Segmented update method to decrease size in Tile Puzzle
+* Made glow only glow on victory in Tile Puzzle
+* Implemented timer tracking for game length in tile puzzle
+* Implemented minimum move and actual move comparisions
+* Added levelend as an obstacle type that triggers the player
+* Added victory dialog to Street puzzle
+* Added BCI input to Street puzzle
+* Fixed bug where it was possible to remove the victory screen or clear any other overlay dialog
+* Fixed player only being able to use first 3 lames
+* Halved alert distance to balance with the smaller sizes (now 150)
+* Added PeopleObstacle specific class
+
+Changelist v13:
+* Reduced size of objects in Street Puzzle and the number of columns to 5.
+* Implemented confirm dialog in Street Puzzle
+* Added template for Victory Dialog
+* Reduced visual distance between tiles in Tile Puzzle (grid dest changed and tile size multipler)
+* Implemented Victory Dialog
+* Fixed jumbled code between Victory and Confirm Dialog
+* Implemented Victory Dialog in Tile Puzzle
+* Fixed glow rectangle bounds in Tile Puzzle
+
+Changelist v12:
+* Rearranged Main Menu
+* Restyled Main Menu
+* Added Exit Game option for main menu
+* Added Confirm Dialog
+* Added Confirm Dialog and Exit Game to WndHandle Enumeration
+* Extended WndHandle to simplify speech recongition in the main class (removes the need for conditional casting)
+* Added improvement to reduce overhead of multiple strings 
+* Implemented confirm dialog in tile puzzle to allow return to main menu
+* Fixed order of buttons in main menu
+* Implemented InfoWnd
+* Modified file structure
+
+Changelist v11:
+* Added kinect depth image tracking
+* Disabled colour frame tracking and set depth tracking to display as overlay
+* Added workaround to fix the gap produced after the initial row insertion on Street Puzzle
+* Implemented alert flash for thief and fixed bug that caused thief to not correctly update
+* Added ability for thief to stop and basic relative movement so that it keeps moving after the player's speed changes
+* Extended InfoWnd, RiverPuzzle, and StreetPuzzle to include voice control
+* Added code to manage voice control to Game1
+
+Changelist v10:
+* Extended StreetMap to handle path management
+* Extended Thief (refactored to fix spelling) to allow it to manage path management
+* Added PathHelper to extend obstacles and allow for automatic path control
+* Removed some of the annoying debug messages from the server reconnection failed messages
+* Modified street puzzle to use a static number for initial cell placement
+* Modified code in a number of other files to provide standardisation
+
+Changelist v9:
+* Fixed issue where voice command could not be used in MainMenu
+* Enabled player control of character in Street Puzzle
+* Added scrolling background that matches speed with object translation to Street Puzzle
+* Added temporary fix for collision detection where the origin when set to something non-zero would cause incorrect detection 
+* Added tracking of shoulder centre
+* Fixed tracking for hip position to actually update
+* Added gesture to stop player when hands above shoulder level (or A on gamepad or Space on keyboard)
+* Modified theif object code to match with the way the player works
+
+Changelist v8:
+* Fixed bug that caused bci input to reset to 0 after every server reconnection failure
+* Fixed bug where exiting application did not close the network related threads
+* Removed lots of TODO messages 
+* Fixed code to remove warning messages (eg, adding override)
+* Made main menu the program entry point
+* For now made main menu elements access the games directly instead of going via the information screens
+* Added the "dummy" player and thief elements that don't have control yet
+* Implemented automatic map generation
+* Implemented automatic obstacle spawning and movement
+
+Changelist v7:
+* Added code to parts of the Street Puzzle files
+
+Changelist v6:
+* Added code to auto handle server reconnection 
+* Removed poorly designed BCIManager logging scheme (was inefficient for multi data)
+* Extended DataElement and DataLog to support XML serialization
+* Added hip tracking to input manager pipeline
+* Created basic file structure for Street Puzzle code
+* Added code to InfoWnd, and RiverPuzzle
+* Added basis for MainMenu object and accompanying SpriteButton object
+
+Changelist v5:
+* Fixed alpha blending for tile blending and implemented for victory glow
+* Extended support for game controller input (now fully supported)
+* Removed hidden rgb kinect video output
+* Fixed issue where you had to hold tile to swap hands
+* Added victory glow behind tile set once puzzle complete
+* Modifed BCI manager to handle non-existant controls better
+* Modified BCI manager to change the controls to map with the new controller inputs
+* Implemented structure for DataLog and DataElement
+* Modified Dummy Server to provide values for sin(theta), random, cos(theta)

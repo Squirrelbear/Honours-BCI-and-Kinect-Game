@@ -1,0 +1,901 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>smallFont.spritefont</Source>
+      <Name>smallFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\smallFont.xnb</Output>
+      <Time>2012-04-17T15:45:30.2492409+09:30</Time>
+    </Item>
+    <Item>
+      <Source>largeFont.spritefont</Source>
+      <Name>largeFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\largeFont.xnb</Output>
+      <Time>2012-05-04T08:52:45+09:30</Time>
+    </Item>
+    <Item>
+      <Source>mediumFont.spritefont</Source>
+      <Name>mediumFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\mediumFont.xnb</Output>
+      <Time>2012-05-04T08:52:45+09:30</Time>
+    </Item>
+    <Item>
+      <Source>hugeFont.spritefont</Source>
+      <Name>hugeFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\hugeFont.xnb</Output>
+      <Time>2012-05-04T08:56:10+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\emptytile.png</Source>
+      <Name>TilePuzzle\emptytile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\emptytile.xnb</Output>
+      <Time>2012-04-21T06:46:33.7428227+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\t1.png</Source>
+      <Name>TilePuzzle\t1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\t1.xnb</Output>
+      <Time>2012-04-21T06:38:22.8777468+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\t2.png</Source>
+      <Name>TilePuzzle\t2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\t2.xnb</Output>
+      <Time>2012-04-21T06:39:15.0277296+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\t3.png</Source>
+      <Name>TilePuzzle\t3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\t3.xnb</Output>
+      <Time>2012-04-21T06:39:50.8687796+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\t4.png</Source>
+      <Name>TilePuzzle\t4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\t4.xnb</Output>
+      <Time>2012-04-21T06:40:24.6717131+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\t5.png</Source>
+      <Name>TilePuzzle\t5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\t5.xnb</Output>
+      <Time>2012-04-21T06:41:06.4361018+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\t6.png</Source>
+      <Name>TilePuzzle\t6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\t6.xnb</Output>
+      <Time>2012-04-21T06:41:53.311783+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\t7.png</Source>
+      <Name>TilePuzzle\t7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\t7.xnb</Output>
+      <Time>2012-04-21T06:42:28.6088018+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\t8.png</Source>
+      <Name>TilePuzzle\t8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\t8.xnb</Output>
+      <Time>2012-04-21T06:42:49.293985+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\t9.png</Source>
+      <Name>TilePuzzle\t9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\t9.xnb</Output>
+      <Time>2012-04-21T06:43:25.432052+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\tilebackground.png</Source>
+      <Name>TilePuzzle\tilebackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\tilebackground.xnb</Output>
+      <Time>2012-04-21T06:33:59.5066829+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\hand.png</Source>
+      <Name>TilePuzzle\hand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\hand.xnb</Output>
+      <Time>2012-08-17T23:41:12.1509451+09:30</Time>
+    </Item>
+    <Item>
+      <Source>Common\progress.png</Source>
+      <Name>Common\progress</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\Common\progress.xnb</Output>
+      <Time>2012-05-03T21:56:33.1881958+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\glow.png</Source>
+      <Name>TilePuzzle\glow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\glow.xnb</Output>
+      <Time>2012-05-08T19:16:26.509218+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\Box.jpg</Source>
+      <Name>StreetPuzzle\Box</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\Box.xnb</Output>
+      <Time>2012-05-14T22:12:52.6979723+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\exclamation.png</Source>
+      <Name>StreetPuzzle\exclamation</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\exclamation.xnb</Output>
+      <Time>2012-05-14T22:34:05.8137904+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\background.jpg</Source>
+      <Name>StreetPuzzle\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\background.xnb</Output>
+      <Time>2012-05-19T12:34:54.3893859+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\pathHelperBackground.png</Source>
+      <Name>StreetPuzzle\pathHelperBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\pathHelperBackground.xnb</Output>
+      <Time>2012-05-20T12:31:03.8975331+09:30</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu\background.png</Source>
+      <Name>MainMenu\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\MainMenu\background.xnb</Output>
+      <Time>2012-08-04T22:11:50.9525611+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\charblue.png</Source>
+      <Name>StreetPuzzle\charblue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\charblue.xnb</Output>
+      <Time>2012-07-28T12:44:21.1201826+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\chargreen.png</Source>
+      <Name>StreetPuzzle\chargreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\chargreen.xnb</Output>
+      <Time>2012-07-28T12:45:00.1834169+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\charother.png</Source>
+      <Name>StreetPuzzle\charother</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\charother.xnb</Output>
+      <Time>2012-07-28T12:47:12.3299753+09:30</Time>
+    </Item>
+    <Item>
+      <Source>InfoWnd\background.png</Source>
+      <Name>InfoWnd\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\InfoWnd\background.xnb</Output>
+      <Time>2012-07-11T20:42:49.0175417+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\rivertile.png</Source>
+      <Name>StreetPuzzle\rivertile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\rivertile.xnb</Output>
+      <Time>2012-07-28T21:40:20.73879+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\SpeechCollided.png</Source>
+      <Name>StreetPuzzle\SpeechCollided</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\SpeechCollided.xnb</Output>
+      <Time>2012-07-28T11:29:03.4367859+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\SpeechNormal.png</Source>
+      <Name>StreetPuzzle\SpeechNormal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\SpeechNormal.xnb</Output>
+      <Time>2012-07-28T11:28:06.4455262+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\Stallgreenbrokenleft.png</Source>
+      <Name>StreetPuzzle\Stallgreenbrokenleft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\Stallgreenbrokenleft.xnb</Output>
+      <Time>2012-07-28T13:49:21.7882881+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\Stallgreenbrokenright.png</Source>
+      <Name>StreetPuzzle\Stallgreenbrokenright</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\Stallgreenbrokenright.xnb</Output>
+      <Time>2012-07-29T17:36:34.3831423+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\Stallgreenleft.png</Source>
+      <Name>StreetPuzzle\Stallgreenleft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\Stallgreenleft.xnb</Output>
+      <Time>2012-07-28T13:15:39.5966253+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\Stallgreenright.png</Source>
+      <Name>StreetPuzzle\Stallgreenright</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\Stallgreenright.xnb</Output>
+      <Time>2012-07-29T17:36:11.5198346+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\Stallredbrokenleft.png</Source>
+      <Name>StreetPuzzle\Stallredbrokenleft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\Stallredbrokenleft.xnb</Output>
+      <Time>2012-07-28T13:53:59.0101443+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\Stallredbrokenright.png</Source>
+      <Name>StreetPuzzle\Stallredbrokenright</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\Stallredbrokenright.xnb</Output>
+      <Time>2012-07-29T17:35:51.1776711+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\Stallredleft.png</Source>
+      <Name>StreetPuzzle\Stallredleft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\Stallredleft.xnb</Output>
+      <Time>2012-07-28T13:14:09.1104498+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\Stallredright.png</Source>
+      <Name>StreetPuzzle\Stallredright</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\Stallredright.xnb</Output>
+      <Time>2012-07-29T17:35:26.6872703+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\Stallyellowbrokenleft.png</Source>
+      <Name>StreetPuzzle\Stallyellowbrokenleft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\Stallyellowbrokenleft.xnb</Output>
+      <Time>2012-07-28T13:51:20.4090728+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\Stallyellowbrokenright.png</Source>
+      <Name>StreetPuzzle\Stallyellowbrokenright</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\Stallyellowbrokenright.xnb</Output>
+      <Time>2012-07-29T17:34:30.5190577+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\Stallyellowleft.png</Source>
+      <Name>StreetPuzzle\Stallyellowleft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\Stallyellowleft.xnb</Output>
+      <Time>2012-07-28T13:12:51.0979878+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\Stallyellowright.png</Source>
+      <Name>StreetPuzzle\Stallyellowright</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\Stallyellowright.xnb</Output>
+      <Time>2012-07-29T17:33:33.5788009+09:30</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu\exitgameout.png</Source>
+      <Name>MainMenu\exitgameout</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\MainMenu\exitgameout.xnb</Output>
+      <Time>2012-07-29T19:38:33.3777648+09:30</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu\exitgameover.png</Source>
+      <Name>MainMenu\exitgameover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\MainMenu\exitgameover.xnb</Output>
+      <Time>2012-07-29T19:38:50.4857434+09:30</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu\riverpuzzleout.png</Source>
+      <Name>MainMenu\riverpuzzleout</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\MainMenu\riverpuzzleout.xnb</Output>
+      <Time>2012-07-29T19:38:12.5675746+09:30</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu\riverpuzzleover.png</Source>
+      <Name>MainMenu\riverpuzzleover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\MainMenu\riverpuzzleover.xnb</Output>
+      <Time>2012-07-29T19:37:46.8071011+09:30</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu\storymodeout.png</Source>
+      <Name>MainMenu\storymodeout</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\MainMenu\storymodeout.xnb</Output>
+      <Time>2012-07-29T19:35:01.1276248+09:30</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu\storymodeover.png</Source>
+      <Name>MainMenu\storymodeover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\MainMenu\storymodeover.xnb</Output>
+      <Time>2012-07-29T19:35:26.0170484+09:30</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu\streetpuzzleout.png</Source>
+      <Name>MainMenu\streetpuzzleout</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\MainMenu\streetpuzzleout.xnb</Output>
+      <Time>2012-07-29T19:37:01.5415121+09:30</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu\streetpuzzleover.png</Source>
+      <Name>MainMenu\streetpuzzleover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\MainMenu\streetpuzzleover.xnb</Output>
+      <Time>2012-07-29T19:37:17.3394157+09:30</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu\tilepuzzleout.png</Source>
+      <Name>MainMenu\tilepuzzleout</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\MainMenu\tilepuzzleout.xnb</Output>
+      <Time>2012-07-29T19:36:29.9677062+09:30</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu\tilepuzzleover.png</Source>
+      <Name>MainMenu\tilepuzzleover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\MainMenu\tilepuzzleover.xnb</Output>
+      <Time>2012-07-29T19:36:11.571654+09:30</Time>
+    </Item>
+    <Item>
+      <Source>todo.png</Source>
+      <Name>todo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\todo.xnb</Output>
+      <Time>2012-07-29T19:51:24.3418615+09:30</Time>
+    </Item>
+    <Item>
+      <Source>OtherDialog\continueout.png</Source>
+      <Name>OtherDialog\continueout</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\OtherDialog\continueout.xnb</Output>
+      <Time>2012-07-29T19:41:13.5209245+09:30</Time>
+    </Item>
+    <Item>
+      <Source>OtherDialog\continueover.png</Source>
+      <Name>OtherDialog\continueover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\OtherDialog\continueover.xnb</Output>
+      <Time>2012-07-29T19:41:33.7160796+09:30</Time>
+    </Item>
+    <Item>
+      <Source>OtherDialog\mainmenuout.png</Source>
+      <Name>OtherDialog\mainmenuout</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\OtherDialog\mainmenuout.xnb</Output>
+      <Time>2012-07-29T19:40:33.3646277+09:30</Time>
+    </Item>
+    <Item>
+      <Source>OtherDialog\mainmenuover.png</Source>
+      <Name>OtherDialog\mainmenuover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\OtherDialog\mainmenuover.xnb</Output>
+      <Time>2012-07-29T19:39:23.1606122+09:30</Time>
+    </Item>
+    <Item>
+      <Source>OtherDialog\nextpuzzleout.png</Source>
+      <Name>OtherDialog\nextpuzzleout</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\OtherDialog\nextpuzzleout.xnb</Output>
+      <Time>2012-07-29T19:42:25.9060647+09:30</Time>
+    </Item>
+    <Item>
+      <Source>OtherDialog\nextpuzzleover.png</Source>
+      <Name>OtherDialog\nextpuzzleover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\OtherDialog\nextpuzzleover.xnb</Output>
+      <Time>2012-07-29T19:42:05.1738789+09:30</Time>
+    </Item>
+    <Item>
+      <Source>OtherDialog\tryagainout.png</Source>
+      <Name>OtherDialog\tryagainout</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\OtherDialog\tryagainout.xnb</Output>
+      <Time>2012-07-29T19:42:59.6169928+09:30</Time>
+    </Item>
+    <Item>
+      <Source>OtherDialog\tryagainover.png</Source>
+      <Name>OtherDialog\tryagainover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\OtherDialog\tryagainover.xnb</Output>
+      <Time>2012-07-29T19:43:12.5247311+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\rooftops.png</Source>
+      <Name>StreetPuzzle\rooftops</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\rooftops.xnb</Output>
+      <Time>2012-07-28T14:59:36.3883494+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\scrollingwater.png</Source>
+      <Name>StreetPuzzle\scrollingwater</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\scrollingwater.xnb</Output>
+      <Time>2012-07-29T21:30:28.7168603+09:30</Time>
+    </Item>
+    <Item>
+      <Source>OtherDialog\dialogbackground.png</Source>
+      <Name>OtherDialog\dialogbackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\OtherDialog\dialogbackground.xnb</Output>
+      <Time>2012-08-04T22:08:16.3562869+09:30</Time>
+    </Item>
+    <Item>
+      <Source>RiverPuzzle\tyre.png</Source>
+      <Name>RiverPuzzle\tyre</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\RiverPuzzle\tyre.xnb</Output>
+      <Time>2012-08-05T20:29:46.384144+09:30</Time>
+    </Item>
+    <Item>
+      <Source>RiverPuzzle\background.png</Source>
+      <Name>RiverPuzzle\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\RiverPuzzle\background.xnb</Output>
+      <Time>2012-08-05T20:48:05.8890321+09:30</Time>
+    </Item>
+    <Item>
+      <Source>RiverPuzzle\scrollingwater.png</Source>
+      <Name>RiverPuzzle\scrollingwater</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\RiverPuzzle\scrollingwater.xnb</Output>
+      <Time>2012-08-11T07:55:51.6139555+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\s1.png</Source>
+      <Name>TilePuzzle\s1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\s1.xnb</Output>
+      <Time>2012-08-11T08:46:02.9801958+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\s2.png</Source>
+      <Name>TilePuzzle\s2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\s2.xnb</Output>
+      <Time>2012-08-11T08:47:07.8149042+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\s3.png</Source>
+      <Name>TilePuzzle\s3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\s3.xnb</Output>
+      <Time>2012-08-11T08:47:54.6105807+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\s4.png</Source>
+      <Name>TilePuzzle\s4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\s4.xnb</Output>
+      <Time>2012-08-11T08:49:13.4340892+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\s5.png</Source>
+      <Name>TilePuzzle\s5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\s5.xnb</Output>
+      <Time>2012-08-11T08:49:59.6957352+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\s6.png</Source>
+      <Name>TilePuzzle\s6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\s6.xnb</Output>
+      <Time>2012-08-11T08:50:44.782314+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\s7.png</Source>
+      <Name>TilePuzzle\s7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\s7.xnb</Output>
+      <Time>2012-08-11T08:51:25.2616293+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\s8.png</Source>
+      <Name>TilePuzzle\s8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\s8.xnb</Output>
+      <Time>2012-08-11T08:52:04.5108742+09:30</Time>
+    </Item>
+    <Item>
+      <Source>TilePuzzle\s9.png</Source>
+      <Name>TilePuzzle\s9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\TilePuzzle\s9.xnb</Output>
+      <Time>2012-08-11T08:52:31.8394373+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\bridge.png</Source>
+      <Name>StreetPuzzle\bridge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\bridge.xnb</Output>
+      <Time>2012-08-11T10:08:10.3132441+09:30</Time>
+    </Item>
+    <Item>
+      <Source>StreetPuzzle\BoxBroken.png</Source>
+      <Name>StreetPuzzle\BoxBroken</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\StreetPuzzle\BoxBroken.xnb</Output>
+      <Time>2012-08-11T10:19:57.415714+09:30</Time>
+    </Item>
+    <Item>
+      <Source>InfoWnd\tileinfo1.png</Source>
+      <Name>InfoWnd\tileinfo1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\InfoWnd\tileinfo1.xnb</Output>
+      <Time>2012-08-19T14:56:48.7717907+09:30</Time>
+    </Item>
+    <Item>
+      <Source>InfoWnd\riverinfo1.png</Source>
+      <Name>InfoWnd\riverinfo1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\InfoWnd\riverinfo1.xnb</Output>
+      <Time>2012-08-19T16:21:55.835898+09:30</Time>
+    </Item>
+    <Item>
+      <Source>InfoWnd\streetinfo1.png</Source>
+      <Name>InfoWnd\streetinfo1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\InfoWnd\streetinfo1.xnb</Output>
+      <Time>2012-08-19T15:55:47.7832105+09:30</Time>
+    </Item>
+    <Item>
+      <Source>InfoWnd\tileinfo2.png</Source>
+      <Name>InfoWnd\tileinfo2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\InfoWnd\tileinfo2.xnb</Output>
+      <Time>2012-08-19T15:32:58.6178988+09:30</Time>
+    </Item>
+    <Item>
+      <Source>InfoWnd\riverinfo2.png</Source>
+      <Name>InfoWnd\riverinfo2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\InfoWnd\riverinfo2.xnb</Output>
+      <Time>2012-08-19T21:03:17.5844788+09:30</Time>
+    </Item>
+    <Item>
+      <Source>InfoWnd\streetinfo2.png</Source>
+      <Name>InfoWnd\streetinfo2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\InfoWnd\streetinfo2.xnb</Output>
+      <Time>2012-08-19T20:58:00.0063144+09:30</Time>
+    </Item>
+    <Item>
+      <Source>RiverPuzzle\rubbishbag.png</Source>
+      <Name>RiverPuzzle\rubbishbag</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\RiverPuzzle\rubbishbag.xnb</Output>
+      <Time>2012-08-19T21:28:37.6124194+09:30</Time>
+    </Item>
+    <Item>
+      <Source>RiverPuzzle\treasure.png</Source>
+      <Name>RiverPuzzle\treasure</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\RiverPuzzle\treasure.xnb</Output>
+      <Time>2012-08-19T21:36:14.6105582+09:30</Time>
+    </Item>
+    <Item>
+      <Source>RiverPuzzle\treasure2.png</Source>
+      <Name>RiverPuzzle\treasure2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\RiverPuzzle\treasure2.xnb</Output>
+      <Time>2012-08-19T21:39:28.8216665+09:30</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu\kinectbackdrop.png</Source>
+      <Name>MainMenu\kinectbackdrop</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\MainMenu\kinectbackdrop.xnb</Output>
+      <Time>2012-08-20T20:41:55.8517497+09:30</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu\calibrationout.png</Source>
+      <Name>MainMenu\calibrationout</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\MainMenu\calibrationout.xnb</Output>
+      <Time>2012-08-20T20:45:13.2500402+09:30</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu\calibrationover.png</Source>
+      <Name>MainMenu\calibrationover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\MainMenu\calibrationover.xnb</Output>
+      <Time>2012-08-20T20:45:57.1075488+09:30</Time>
+    </Item>
+    <Item>
+      <Source>OtherDialog\calibrationimg.jpg</Source>
+      <Name>OtherDialog\calibrationimg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\OtherDialog\calibrationimg.xnb</Output>
+      <Time>2012-08-25T15:24:10.3232314+09:30</Time>
+    </Item>
+    <Item>
+      <Source>Common\progressBGHor.png</Source>
+      <Name>Common\progressBGHor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\Common\progressBGHor.xnb</Output>
+      <Time>2012-08-26T13:46:21.7240314+09:30</Time>
+    </Item>
+    <Item>
+      <Source>Common\progressBGVer.png</Source>
+      <Name>Common\progressBGVer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\Common\progressBGVer.xnb</Output>
+      <Time>2012-08-26T13:46:42.0961966+09:30</Time>
+    </Item>
+    <Item>
+      <Source>Common\progressFGHor.png</Source>
+      <Name>Common\progressFGHor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\Common\progressFGHor.xnb</Output>
+      <Time>2012-08-26T13:46:57.3560694+09:30</Time>
+    </Item>
+    <Item>
+      <Source>Common\progressFGVer.png</Source>
+      <Name>Common\progressFGVer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\Common\progressFGVer.xnb</Output>
+      <Time>2012-08-26T13:47:17.560225+09:30</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Assassian360\Dropbox\Dropbox\2012\Honours Project\Honours_Code\HonoursGame\HonoursGame\HonoursGame\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+09:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+09:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+09:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+09:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+09:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+09:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-06-17T10:59:17.6032057+09:30</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
