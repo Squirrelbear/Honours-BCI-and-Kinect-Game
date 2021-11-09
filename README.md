@@ -2,7 +2,7 @@
 
 The code provided in this repository was what I used for testing with participants during my Honours year in 2012. It is provided as-is and has not been cleaned up to make it easier for other developers. The concepts presented may still be useful to some people, and you can find out more details about the work by reviewing the Thesis.pdf or ExpoPoster.pdf. 
 
-Note that the BCI server is not included. 
+The MatlabServer folder contains a copy of the code used for passing BCI information to my server code. I did not write the MatlabServer code it is provided as is in case anyone is interested in replicating the input.
 
 # Required SDKs/Runtimes
 

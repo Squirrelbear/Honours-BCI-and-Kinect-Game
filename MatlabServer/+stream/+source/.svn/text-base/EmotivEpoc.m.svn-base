@@ -1,0 +1,124 @@
+classdef EmotivEpoc < stream.StreamObject
+    %UNTITLED Summary of this class goes here
+    %   Detailed explanation goes here
+    
+    properties %(Access=private)
+        engine = [];
+        asmb = [];
+        userid = [];
+        Timer;
+        NumChannels = 16;
+    end
+    
+    properties (Dependent=true)
+       buffersize; 
+       samplerate;
+       SamplesAcquiredFcn;
+    end
+    
+    methods
+        
+        function d = EmotivEpoc
+            
+            d.Timer = timer;
+            d.Timer.ExecutionMode = 'fixedRate';
+            d.Timer.BusyMode = 'queue';
+            
+            d.asmb = NET.addAssembly('C:\Users\spfitzgibbon\Documents\Matlab\scratch\DotNetEmotivSDK.dll');
+            d.engine = Emotiv.EmoEngine.Instance;
+%             addlistener(d.engine,'EmoEngineConnected',@engineconnected);
+            addlistener(d.engine,'UserAdded',@useraddedlistener);
+            d.engine.Connect;
+            
+            while isempty(d.userid)
+               d.engine.ProcessEvents; 
+            end
+            
+            function useraddedlistener(~,a)
+                d.userid = a.userId;
+                d.buffersize = 5;
+            end
+            
+%             function engineconnected(~,~)
+%                 d.engine.ProcessEvents;
+%             end
+            
+        end
+        
+        function start(d)
+%             d.engine.ProcessEvents;
+            d.engine.DataAcquisitionEnable(d.userid, true);
+            
+            d.Timer.Period = 1/(d.samplerate*0.25);
+            d.Timer.StartDelay = 1/(d.samplerate*0.25);
+            start(d.Timer);
+            
+        end
+        
+        function stop(d)
+%             d.engine.ProcessEvents;
+            stop(d.Timer);
+            d.engine.DataAcquisitionEnable(d.userid, false);
+        end
+        
+        function set.SamplesAcquiredFcn(d,fcn)
+            assert(~d.islocked,'SignalGeneratorError:ObjectLocked','This property cannot be changed whilst the object is locked');
+            d.Timer.TimerFcn = fcn;
+        end
+        
+        function [v,t] = step(d)
+            v = []; t = [];
+            
+            data = d.engine.GetData(d.userid);
+
+            if ~isempty(data) 
+                
+                t = double(data.Item(Emotiv.EE_DataChannel_t.TIMESTAMP));
+                
+                v = nan(16,length(t));
+                
+                v(1,:) = double(data.Item(Emotiv.EE_DataChannel_t.AF3));
+                v(2,:) = double(data.Item(Emotiv.EE_DataChannel_t.AF4));
+                v(3,:) = double(data.Item(Emotiv.EE_DataChannel_t.F3));
+                v(4,:) = double(data.Item(Emotiv.EE_DataChannel_t.F4));
+                v(5,:) = double(data.Item(Emotiv.EE_DataChannel_t.F7));
+                v(6,:) = double(data.Item(Emotiv.EE_DataChannel_t.F8));
+                v(7,:) = double(data.Item(Emotiv.EE_DataChannel_t.FC5));
+                v(8,:) = double(data.Item(Emotiv.EE_DataChannel_t.FC6));
+                v(9,:) = double(data.Item(Emotiv.EE_DataChannel_t.T7));
+                v(10,:) = double(data.Item(Emotiv.EE_DataChannel_t.T8));
+                v(11,:) = double(data.Item(Emotiv.EE_DataChannel_t.P7));
+                v(12,:) = double(data.Item(Emotiv.EE_DataChannel_t.P8));
+                v(13,:) = double(data.Item(Emotiv.EE_DataChannel_t.O1));
+                v(14,:) = double(data.Item(Emotiv.EE_DataChannel_t.O2));
+                v(15,:) = double(data.Item(Emotiv.EE_DataChannel_t.GYROX));
+                v(16,:) = double(data.Item(Emotiv.EE_DataChannel_t.GYROY));
+            end
+            v = v'./1000;
+        end
+        
+        function set.buffersize(d,s)
+           d.engine.EE_DataSetBufferSizeInSec(s); 
+        end
+        
+        function s = get.buffersize(d)
+           s = d.engine.EE_DataGetBufferSizeInSec; 
+        end
+        
+        function delete(d)
+            d.engine.Disconnect;
+        end
+        
+        function s = get.samplerate(d)
+           s = double(d.engine.DataGetSamplingRate(d.userid));
+        end
+        
+        function b = isDone(d)
+            if strcmp(d.Timer.Running,'off'), b = true;
+            else b = false; end
+        end
+        
+    end
+    
+end
+
