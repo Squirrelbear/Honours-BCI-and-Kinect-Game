@@ -4,6 +4,8 @@ The code provided in this repository was what I used for testing with participan
 
 The MatlabServer folder contains a copy of the code used for passing BCI information to my server code. I did not write the MatlabServer code it is provided as is in case anyone is interested in replicating the input.
 
+- ([Youtube Demo](https://youtu.be/CxklsQ8ch8A))
+
 # Required SDKs/Runtimes
 
 You may need some or all of these to run/compile the provided files:
