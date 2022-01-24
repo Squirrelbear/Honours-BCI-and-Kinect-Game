@@ -6,6 +6,8 @@ The MatlabServer folder contains a copy of the code used for passing BCI informa
 
 - ([Youtube Demo](https://youtu.be/CxklsQ8ch8A))
 
+The paper from this work in iTagPaper.pdf was presented at a 2013 iTag coference. The slides were shared for all presentations at the conference via slideshare. ([Conference Slides](https://www.slideshare.net/iTAG_conf?utm_campaign=profiletracking&utm_medium=sssite&utm_source=ssslideview))
+
 # Required SDKs/Runtimes
 
 You may need some or all of these to run/compile the provided files:
