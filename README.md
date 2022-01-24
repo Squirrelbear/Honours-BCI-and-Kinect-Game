@@ -6,7 +6,7 @@ The MatlabServer folder contains a copy of the code used for passing BCI informa
 
 - ([Youtube Demo](https://youtu.be/CxklsQ8ch8A))
 
-The paper from this work in iTagPaper.pdf was presented at a 2013 iTag coference. The slides were shared for all presentations at the conference via slideshare. My supervisor went to the conference to present papers on behalf of multiple peers in Nottingham, United Kingdom in October 2013. ([Conference Slides](https://www.slideshare.net/iTAG_conf?utm_campaign=profiletracking&utm_medium=sssite&utm_source=ssslideview))
+The paper from this work in iTagPaper.pdf was presented at a 2013 iTag coference. The slides were shared for all presentations at the conference via slideshare. My supervisor went to the conference to present papers on behalf of multiple peers in Nottingham, United Kingdom in October 2013. ([Presentation Slides](https://www.slideshare.net/iTAG_conf/evaluation-of-a-natural-user-interaction-gameplay-system-using-the-microsoft-kinect-augmented-with-noninvasive-brain-computer-interfaces))
 
 # Required SDKs/Runtimes
 
